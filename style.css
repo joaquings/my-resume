@@ -1,0 +1,160 @@
+*, 
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    position: relative;
+    left: -40px;
+    width: 100%;
+}
+
+i {
+    color: #3399ff;
+    margin: 0 5px;
+}
+
+li {
+    list-style: none;
+    margin: 20px 0;
+    width: 100%;
+    line-height: 1.4em;
+}
+
+a,
+li,
+button {
+    transition: 0.5s;
+}
+
+a {
+    cursor: pointer;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+p,
+li {
+    line-height: 1.4em;
+    letter-spacing: 0.08em;
+}
+
+em {
+    color: #3399ff;
+    font-weight: 700;
+    font-size: 0.8em;
+    display: block;
+    font-style: normal;
+}
+
+label {
+    color: #3399ff;
+    font-weight: 700;
+    font-size: 0.8em;
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+#button{
+    background-color: #3399ff;
+    color: white;
+    font-size: 15px;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+    transition: 0.2s;
+}
+
+#button:hover{
+    transition: 0.2s;
+    background-color: white;
+    color: #3399ff;
+    font-size: 20px;
+    border: solid 1px #3399ff;
+}
+
+#profile {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    border: solid 5px #3399ff;
+}
+
+.title {
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+
+.sub {
+    font-size: 1em;
+    font-weight: 400;
+    color: gray;
+    line-height: 1em;
+}
+
+.wrapper {
+    width: 100%;
+    position: relative;
+}
+
+.section_left {
+    width: 25%;
+    padding: 20px;
+    background: #131e2c;
+    color: #fff;
+}
+
+.section_left img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.section_right {
+    padding: 30px;
+    width: 75%;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media (max-width:920px) {
+    .section_left {
+        width: 100%;
+        display: block;
+    }
+
+    .section_right {
+        width: 100%;
+        position: static;
+        display: block;
+    }
+}
